@@ -13,7 +13,7 @@ struct students{
 struct teachers{
     string fname, lname;
     int class1, class2, class3, class4;
-}tdatabase[10];
+}tdatabase[3];
 tdatabase[0] = {"Benjamin", "Franklin", 4, 5, 6, 7};
 tdatabase[1] = {"Woody", "Harrelson", 1, 2, 3, 8};
 tdatabase[3] = {"Barrack", "Obama", 9, 10};
