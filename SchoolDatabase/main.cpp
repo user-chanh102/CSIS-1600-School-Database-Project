@@ -14,9 +14,9 @@ void teacherMenu()
            {//menu
                cout << "  Teacher Menu - Choose your role:\n";
                cout << "  ====================================\n";
-               cout << "  1.  Student\n";
-               cout << "  2.  Teacher\n";
-               cout << "  3.  Admin\n";
+               cout << "  1.  View Class Schedule\n";
+               cout << "  2.  View Student Schedule\n";
+               cout << "  3.  Assign Grades\n";
                cout << "  4.  Back to Main Menu\n";
                cout << "\n";
                cout << "  5.  Exit\n";
@@ -28,16 +28,16 @@ void teacherMenu()
                switch (selection)
                {
                    case '1':
-                       //Student
+                       //View Class Schedule
                        studentMenu();
                        break;
 
                    case '2':
-                       //Teacher
+                       //View Student Schedule
                        teacherMenu();
                        break;
                    case '3':
-                       //Admin
+                       //Assign Grades
                        adminMenu();
                        break;
                    case '4':
@@ -64,12 +64,13 @@ void studentMenu()
            {//menu
                cout << "  Student Menu:\n";
                cout << "  ====================================\n";
-               cout << "  1.  Student\n";
-               cout << "  2.  Teacher\n";
-               cout << "  3.  Admin\n";
-               cout << "  4.  Back to Main Menu\n";
+               cout << "  1.  Register\n";
+               cout << "  2.  Add/Remove Classes\n";
+               cout << "  3.  View Class Schedule\n";
+               cout << "  4.  View Grades\n";
+               cout << "  5.  Back to Main Menu\n";
                cout << "\n";
-               cout << "  5.  Exit\n";
+               cout << "  6.  Exit\n";
                cout << "  ====================================\n";
                cout << "  Enter your selection: ";
                cin >> selection;
@@ -78,22 +79,26 @@ void studentMenu()
                switch (selection)
                {
                    case '1':
-                       //Student
+                       //Register
                        studentMenu();
                        break;
 
                    case '2':
-                       //Teacher
+                       //Add/Remove Classes
                        teacherMenu();
                        break;
                    case '3':
-                       //Admin
+                       //View Class Schedule
                        adminMenu();
                        break;
                    case '4':
-                       defaultMenu();
+                       //View Grades
+                       adminMenu();
                        break;
                    case '5':
+                       defaultMenu();
+                       break;
+                   case '6':
                        cout << "Goodbye.\n";
                        selection = 0;
                        break;
@@ -114,9 +119,9 @@ void adminMenu()
            {//menu
                cout << "  Admin Menu:\n";
                cout << "  ====================================\n";
-               cout << "  1.  Student\n";
-               cout << "  2.  Teacher\n";
-               cout << "  3.  Admin\n";
+               cout << "  1.  Add/Remove Students\n";
+               cout << "  2.  Add/Remove Teachers\n";
+               cout << "  3.  Approve/Reject Students\n";
                cout << "  4.  Back to Main Menu\n";
                cout << "\n";
                cout << "  5.  Exit\n";
@@ -128,16 +133,16 @@ void adminMenu()
                switch (selection)
                {
                    case '1':
-                       //Student
+                       //Add/Remove Students
                        studentMenu();
                        break;
 
                    case '2':
-                       //Teacher
+                       //Add/Remove Teachers
                        teacherMenu();
                        break;
                    case '3':
-                       //Admin
+                       //Approve/Reject Students
                        adminMenu();
                        break;
                    case '4':
