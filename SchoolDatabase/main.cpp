@@ -16,7 +16,7 @@ struct teachers{
 }tdatabase[3];
 tdatabase[0] = {"Benjamin", "Franklin", 4, 5, 6, 7};
 tdatabase[1] = {"Woody", "Harrelson", 1, 2, 3, 8};
-tdatabase[3] = {"Barrack", "Obama", 9, 10};
+tdatabase[2] = {"Barrack", "Obama", 9, 10};
 
 sdatabase[0] = {"Jared", "Stoker", 1, 1, 1, 2, 3, 4};
 sdatabase[1] = {"Kirby", "Wood", 2, 1, 2, 4, 6, 8};
