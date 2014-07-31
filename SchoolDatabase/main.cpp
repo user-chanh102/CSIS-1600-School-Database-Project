@@ -12,37 +12,14 @@ struct students{
 }sdatabase[10];
 struct teachers{
     string fname, lname;
-    string class1, class2, class3, class4;
+    int class1, class2, class3, class4;
 }tdatabase[10];
+tdatabase[0] = {"Benjamin", "Franklin", 4, 5, 6, 7};
 
-sdatabase[0].fname = "Jared";
-sdatabase[0].lname = "Stoker";
-sdatabase[0].year = 1;
-sdatabase[0].class1 = 1;
-sdatabase[0].class2 = 2;
-sdatabase[0].class3 = 3;
-sdatabase[0].class4 = 4;
-sdatabase[1].fname = "Kirby";
-sdatabase[1].lname = "Wood";
-sdatabase[1].year = 2;
-sdatabase[1].class1 = 2;
-sdatabase[1].class2 = 4;
-sdatabase[1].class3 = 6;
-sdatabase[1].class4 = 8;
-sdatabase[2].fname = "Chanh";
-sdatabase[2].lname = "Lam";
-sdatabase[2].year = 3;
-sdatabase[2].class1 = 1;
-sdatabase[2].class2 = 3;
-sdatabase[2].class3 = 5;
-sdatabase[2].class4 = 7;
-sdatabase[3].fname = "Sachith";
-sdatabase[3].lname = "Abayakoon";
-sdatabase[3].year = 4;
-sdatabase[3].class1 = 10;
-sdatabase[3].class2 = 9;
-sdatabase[3].class3 = 8;
-sdatabase[3].class4 = 7;
+sdatabase[0] = {"Jared", "Stoker", 1, 1, 1, 2, 3, 4};
+sdatabase[1] = {"Kirby", "Wood", 2, 1, 2, 4, 6, 8};
+sdatabase[2] = {"Chanh", "Lam", 3, 1, 1, 3, 5, 7};
+sdatabase[3] = {"Sachith", "Abayakoon", 4, 1, 10, 9, 8, 7};
 
 
 using namespace std;
