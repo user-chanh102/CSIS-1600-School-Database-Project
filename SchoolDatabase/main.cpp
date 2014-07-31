@@ -7,13 +7,43 @@ struct students{
     string fname, lname;
     int year;
     int active;
-    string class1, class2, class3, class4;
+    int class1, class2, class3, class4;
     string grade1, grade2, grade3, grade4;
 }sdatabase[10];
 struct teachers{
     string fname, lname;
     string class1, class2, class3, class4;
 }tdatabase[10];
+
+sdatabase[0].fname = "Jared";
+sdatabase[0].lname = "Stoker";
+sdatabase[0].year = 3;
+sdatabase[0].class1 = 1;
+sdatabase[0].class2 = 2;
+sdatabase[0].class3 = 3;
+sdatabase[0].class4 = 4;
+sdatabase[1].fname = "Kirby";
+sdatabase[1].lname = "Wood";
+sdatabase[1].year = 3;
+sdatabase[1].class1 = 1;
+sdatabase[1].class2 = 2;
+sdatabase[1].class3 = 3;
+sdatabase[1].class4 = 4;
+sdatabase[2].fname = "Chanh";
+sdatabase[2].lname = "Lam";
+sdatabase[2].year = 3;
+sdatabase[2].class1 = 1;
+sdatabase[2].class2 = 2;
+sdatabase[2].class3 = 3;
+sdatabase[2].class4 = 4;
+sdatabase[3].fname = "Sachith";
+sdatabase[3].lname = "Abayakoon";
+sdatabase[3].year = 3;
+sdatabase[3].class1 = 1;
+sdatabase[3].class2 = 2;
+sdatabase[3].class3 = 3;
+sdatabase[3].class4 = 4;
+
 
 using namespace std;
 void studentMenu();
