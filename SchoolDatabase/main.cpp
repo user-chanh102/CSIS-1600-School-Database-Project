@@ -1,10 +1,26 @@
 #include <iostream>
 #include <iomanip>
+#include <fstream>
+#include <sstream>
+
+struct students{
+    string fname, lname;
+    int year;
+    int active;
+    string class1, class2, class3, class4;
+    string grade1, grade2, grade3, grade4;
+}sdatabase[10];
+struct teachers{
+    string fname, lname;
+    string class1, class2, class3, class4;
+}tdatabase[10];
 
 using namespace std;
 void studentMenu();
 void adminMenu();
 void defaultMenu();
+void teacherMenu();
+
 void teacherMenu()
 {
     {
